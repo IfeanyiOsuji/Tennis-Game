@@ -1,4 +1,7 @@
 public class TennisGame {
+    /* Calculating the  maximum numbber of tennis games that can be played at once given a number of playres
+    and courts available
+    * */
     static int noOfGamesToBePlayedAtOnce =0;
     public static int gameCount(int noOfPersons, int noOfCourts){
 
