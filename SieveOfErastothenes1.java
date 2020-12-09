@@ -11,7 +11,8 @@ public class SieveOfErastothenes1 {
         return primeNumbers;
 
     }
-    // a valie in the array will eventually be false if it not a prime, else true;
+    
+    // a value in the array will eventually be false if it not a prime, else true;
     public static boolean [] checkForNonPrimes(boolean[]n){
         for(int i=2; i*i<n.length;i++ ){
             if(primeNumbers[i]==true) // if primeNumbers[i] is not changed, then it is prime
@@ -23,6 +24,7 @@ public class SieveOfErastothenes1 {
         }
         return primeNumbers;
     }
+    
     // if an index is true then it is a prime number, print it out.
     public static void printPrime(){
         for (int i=2; i<primeNumbers.length; i++){
